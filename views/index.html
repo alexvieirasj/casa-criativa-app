@@ -1,85 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Criativa</title>
+{% block content %}
+<section id="intro">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-</head>
+    <header>
+        <a href="/">
+            <img src="/logo.png" alt="Imagem da Logomarca">
+        </a>
+    </header>
 
-<body>
+    <main>
+        <p>
+            Ficar em casa em períodos longos, não deve ser nada fácil.
+        </p>
 
-    <div id="container">
+        <p>
+            Por isso, iremos catalogar ideias, <strong>, jogos, filmes
+                livros, cursos, dicas </strong> e tudo que for necessário para tornar
+            esse momento mais interessante.
+        </p>
 
-        <section id="intro">
+        <p class="fat">
+            Comece clicando em ver ideias para ver as ideias cadastradas e
+            contribua adicionando a sua ideia
+        </p>
+    </main>
 
-            <header>
-                <a href="/">
-                    <img src="/logo.png" alt="Imagem da Logomarca">
-                </a>
-            </header>
-
-            <main>
-                <p>
-                    Ficar em casa em períodos longos, não deve ser nada fácil.
-                </p>
-
-                <p>
-                    Por isso, iremos catalogar ideias, <strong>, jogos, filmes
-                        livros, cursos, dicas </strong> e tudo que for necessário para tornar
-                    esse momento mais interessante.
-                </p>
-
-                <p class="fat">
-                    Comece clicando em ver ideias para ver as ideias cadastradas e
-                    contribua adicionando a sua ideia
-                </p>
-            </main>
-
-            <section id="buttons">
-                <button onclick="onOff()">+ Adicionar Ideias</button>
-                <a href="/ideias" class="button">Ver Ideias</a>
-            </section>
+    <section id="buttons">
+        <button onclick="onOff()">+ Adicionar Ideias</button>
+        <a href="/ideias" class="button">Ver Ideias</a>
+    </section>
 
 
-            <footer>
-                Com ❤️ <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
-            </footer>
+    <footer>
+        Com ❤️ <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+    </footer>
 
-        </section>
+</section>
 
-        <section id="last-ideias">
-
-            {% for idea in ideas %}
-                <div class="idea">
-                    <img src="{{idea.img}}" alt="Imagem de {{idea.title}}">
-
-                    <div class="content">
-                        <h3>{{idea.title}}</h3>
-                        <p>{{idea.category}}</p>
-                        <div class="description">
-                            {{idea.description}}
-                        </div>
-                        <a href="{{idea.url}}" target="_blank">Ir para a Idéia</a>
-                    </div>
-                </div>
-            {% endfor %}
-
-
-
-
-
-        </section>
-    </div>
-    
-    <!-- Modal -->
-    {% include "modal.html" %}
-
-    <script src="/scripts.js"></script>
-</body>
-
-</html>
+<section id="last-ideias">
+    {% include "all_Ideas.html" %}
+</section>
+{% endblock %}

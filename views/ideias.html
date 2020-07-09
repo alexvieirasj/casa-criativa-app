@@ -1,59 +1,33 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ideias - Casa Criativa</title>
+<!-- pega o Id do body da página-->
+{% set bodyId = "page-ideas" %}
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-</head>
+{% block title %}
+<title>Ideias - Casa Criativa</title>
+{% endblock title %}
 
-<body id="page-ideas">
 
-    <div id="container">
-        <header>
-            <a href="/">
-                <img src="/logo.png" alt="Imagem da Logomarca">
-            </a>
-            <nav>
-                <li><a href="/">Início</a></li>
-                <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
-            </nav>
-        </header>
-        <section id="title">
-            <p>em exibição</p>
-            <h1>Ideias</h1>
-        </section>
-        <main>
-            <section id="ideas">                
-                {% for idea in ideas %}
-                    <div class="idea">
-                        <img src="{{idea.img}}" alt="Imagem de {{idea.title}}">
-
-                        <div class="content">
-                            <h3>{{idea.title}}</h3>
-                            <p>{{idea.category}}</p>
-                            <div class="description">
-                                {{idea.description}}
-                            </div>
-                            <a href="{{idea.url}}" target="_blank">Ir para a Idéia</a>
-                        </div>
-                    </div>
-                {% endfor %}
-            </section>
-        </main>
-        <footer>
-            Com ❤️ <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
-        </footer>
-    </div>
-
-    <!-- Modal -->
-    {% include "modal.html" %}
-
-    <script src="/scripts.js"></script>
-</body>
-
-</html>
+{% block content %}
+<header>
+    <a href="/">
+        <img src="/logo.png" alt="Imagem da Logomarca">
+    </a>
+    <nav>
+        <li><a href="/">Início</a></li>
+        <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+    </nav>
+</header>
+<section id="title">
+    <p>em exibição</p>
+    <h1>Ideias</h1>
+</section>
+<main>
+    <section id="ideas">
+        {% include "all_Ideas.html" %}
+    </section>
+</main>
+<footer>
+    Com ❤️ <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+</footer>
+{% endblock %}
