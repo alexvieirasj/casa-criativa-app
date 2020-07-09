@@ -1,5 +1,4 @@
 /*=== GLOBAIS ===*/
-
 body {
     background: #e5e5e5;
     color: #25282b;
@@ -53,8 +52,8 @@ p, .description {
     text-decoration: none;
 }
 
-/*=== PADRÃO ===*/
 
+/*=== PADRÃO ===*/
 #container {
     width: 90%;
     max-width: 980px;
@@ -149,7 +148,6 @@ footer a {
 }
 
 /*=== MODAL ===*/
-
 #modal {
     background: #ff5E84;
 
@@ -282,8 +280,8 @@ form button:hover {
     visibility: hidden;
 }
 
-/*=== IDEA.HTML ===*/
 
+/*=== IDEA.HTML ===*/
 #page-ideas #container {
     display: block;
 }
