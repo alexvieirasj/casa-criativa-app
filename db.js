@@ -15,7 +15,7 @@ db.serialize(function() {
         );
     `);
     
-    //Inserir dado na tabela
+    //Inserir dados na tabela
     const query = `
     INSERT INTO ideas(
         image,
@@ -34,6 +34,7 @@ db.serialize(function() {
         "https://rocketseat.com.br/"
     ];
 
+    //Precisar descomentar para inserir dados via db.js
     // db.run(query, values, function(err) {
     //     if (err) return console.log(err);
 
