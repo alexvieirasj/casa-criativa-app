@@ -7,7 +7,7 @@
 O sistema foi criado com o objetivo de criar uma aplicação para catalogar ideias de jogos, filmes, livros, cursos e dicas durante a quarentena. O projeto foi criado pela empresa [Rocketseat](https://rocketseat.com.br/) em um Workshop especial de 5 episódios no YouTube, link da série: https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1 
 
 <h1 align="center">
-    <img alt="Capa Projeto" title="CapaProjeto" src="./public/demonstracao-sistema.gif"/>
+    <img alt="Capa Projeto" title="CapaProjeto" src="./public/demonstracao-sistema.gif" width="800px"/>
 </h1>
 
 ## :rocket: Tecnologias utilizadas no projeto
