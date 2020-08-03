@@ -16,7 +16,10 @@ for(let idea of ideas) {
     });
 }
 
-
+function editIdea(id){
+    console.log(id)
+    
+}
 
 function showOff(){
     document

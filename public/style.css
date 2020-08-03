@@ -164,6 +164,24 @@ footer a {
     cursor: pointer;
 }
 
+/* .idea .icon #edit_icon {
+    border: solid #e1dfdf;
+    border-width: 0 1px 1px 0;
+    padding-right: 5px;
+    margin-right: 0px;
+    height: 32px;
+    width: 28px;
+} */
+
+.idea .icon #delete_icon {
+    /* border: solid #e1dfdf; */
+    border-width: 0 0 1px 0;
+    margin-right: 5px;
+    /* padding-left: 5px; */
+    height: 32px;
+    width: 32px;
+}
+
 .idea .hide {
     visibility: hidden;
 }

@@ -10,8 +10,10 @@
         </div>
         <a href="{{idea.link}}" target="_blank">Ir para a Idéia</a>
     </div>
+
     <div class="icon hide">
-        <img src="https://image.flaticon.com/icons/svg/3221/3221897.svg" onclick="onOff2('{{idea.id}}')" alt="Imagem de Karaoke">
-    </div>
+        <!-- <img id="edit_icon" src="https://image.flaticon.com/icons/svg/715/715750.svg" onclick="editIdea('{{idea.id}}')" alt="Imagem de {{idea.title}}"> -->
+         <img id="delete_icon" src="https://image.flaticon.com/icons/svg/3221/3221897.svg" onclick="onOff2('{{idea.id}}')" alt="Imagem de Karaoke">
+     </div>
 </div>
 {% endfor %}
