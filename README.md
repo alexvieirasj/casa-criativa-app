@@ -26,6 +26,14 @@ As tecnologias utilizadas no projeto foram:
 
 - Obs: o site [Flaticon](https://www.flaticon.com/) foi utilizado para buscar as imagens para adicionar junto as idéias
 
+## :heavy_plus_sign: Funcionalidades adicionais
+
+- Ao clicar no ícone da lampâda ao lado da label link da imagem, sugere um site para buscar as imagens
+- Ao passar mouse em um card de idéia, aparece um ícone de lixeira para fazer a exclusão
+- Criado o modal de confirmação de exclusão de idéia
+- Criado o metodo de exclusão no server.js
+
+
 ## :package: Como utilizar o projeto
 
 É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para rodar o projeto através das linhas de comando. O projeto também pode ser baixado no formato zip clicando no botão "Code" na opção "Download ZIP"
