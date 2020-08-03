@@ -25,6 +25,8 @@ function showOff(){
     .toggle("hideFields");
 }
 
+
+/*Passa id do card*/
 function onOff2(id){
     
     document.querySelector('input[id=id]').value = id; 
