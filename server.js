@@ -120,5 +120,21 @@ server.post("/", function(req, res) {
       });
 });
 
+server.post("/delete", function(req, res) {
+    const id = req.body.id;
+
+    //Deletar um dado da tabela
+    db.run(`DELETE FROM ideas WHERE id = ?`, [id], function(err) {
+        if (err) {
+            console.log(err);
+            return res.send("Erro no banco de dados!");
+        }
+        
+        // console.log("DELETEI", this);
+
+        return res.redirect("/ideias");
+    });
+});
+
 //liguei meu servidor na porta 3000
 server.listen(3000);

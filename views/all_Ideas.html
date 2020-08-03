@@ -3,12 +3,15 @@
     <img src="{{idea.image}}" alt="Imagem de {{idea.title}}">
 
     <div class="content">
-        <h3>{{idea.title}}</h3>
+        <h3>{{idea.index}}</h3>
         <p>{{idea.category}}</p>
         <div class="description">
             {{idea.description}}
         </div>
         <a href="{{idea.link}}" target="_blank">Ir para a Idéia</a>
+    </div>
+    <div class="icon hide">
+        <img src="https://image.flaticon.com/icons/svg/3221/3221897.svg" onclick="onOff2('{{idea.id}}')" alt="Imagem de Karaoke">
     </div>
 </div>
 {% endfor %}

@@ -1,4 +1,10 @@
 /*=== GLOBAIS ===*/
+
+:root { /*cria 'variaveis' para elementos no css*/
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
 body {
     background: #e5e5e5;
     color: #25282b;
@@ -147,6 +153,27 @@ footer a {
     margin: 16px 0;
 }
 
+
+.idea .icon {
+    display: flex;
+    align-items: flex-end
+}
+
+.idea .icon img {
+    height: 30px; 
+    cursor: pointer;
+}
+
+.idea .hide {
+    visibility: hidden;
+}
+
+.idea_border {
+    border: solid #eb9999;
+    border-width: 0 1px;
+}
+
+
 /*=== MODAL ===*/
 #modal {
     background: #ff5E84;
@@ -193,6 +220,129 @@ footer a {
 
     gap: 20px;
 }
+
+#modal .sugestion {
+    display: inline;
+}
+
+#modal .hideFields {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#modal .modal_img {
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+}
+
+#modal .modal_span {
+    font-size: 9px; 
+    color: #ffffff; 
+    margin-left: 11px;
+
+}
+
+#modal .modal_a {
+    font-size: 11px;
+    color: #fdff78; 
+    text-decoration: underline; 
+    display: inline;
+    background: #ff5E84;
+  
+}
+
+
+
+
+/*=== MODAL 2 ===*/
+#modal2 {
+    background-color: #0e0a14ef; /*no final colocar 00 para cor mais fraca e FF para cor mais forte*/
+
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed; /*fixa o elemento*/
+    top: 0; /*posiciona o elemento no começo da página*/
+
+    /*alinha os elementos no centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+#modal2.hide {
+    display: none;
+}
+
+#modal2 .content {
+    color: black;
+    width: 440px;
+    height: 290px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+#modal2 .header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#modal2 .header img {
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#modal2 .header h1 {
+    color: black;
+    font-size: 29px;
+    line-height: 42px;
+}
+
+#modal2 .header p {
+    font-size: 17px;
+}
+
+#modal2 form label {
+    font-size: 14px;
+    line-height: 16px;
+
+    display: block;
+    margin-bottom: 8px;
+}
+
+#modal2 form .field {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+
+#modal2 form button {
+    background: #e15353;
+    color: white;
+    margin-right: 5px;
+}
+
+#modal2 #button2 {
+    background: #a3a3a3;
+    color: white;
+    margin-top: 32px;
+}
+
+#modal2 form button:hover {
+    background-color: #ff0000;
+}
+
+#modal2 form button a #button2:hover {
+    background-color: #6c6969;
+}
+
+
+
 
 .content form div:nth-child(3),
 .content form div:nth-child(4),

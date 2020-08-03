@@ -1,3 +1,40 @@
+
+const ideas = document.querySelectorAll('.idea');
+
+//Mostra ou oculta o botão delete
+for(let idea of ideas) {
+
+    idea.addEventListener('mouseover', function(){
+
+        // idea.classList.add('idea_border');
+        idea.querySelector('div:last-child').classList.remove('hide');
+    });
+
+    idea.addEventListener('mouseout', function(){
+        // idea.classList.remove('idea_border');
+        idea.querySelector('div:last-child').classList.add('hide');
+    });
+}
+
+
+
+function showOff(){
+    document
+    .querySelector("#modal .sugestion")
+    .classList
+    .toggle("hideFields");
+}
+
+function onOff2(id){
+    
+    document.querySelector('input[id=id]').value = id; 
+
+    document
+        .querySelector("#modal2")
+        .classList
+        .toggle("hide");
+}        
+
 function onOff(){
     document
         .querySelector("#modal")
