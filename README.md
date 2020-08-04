@@ -30,7 +30,7 @@ As tecnologias utilizadas no projeto foram:
 
 - Ao clicar no ícone da lampâda ao lado da label link da imagem, sugere um site para buscar as imagens
 - Ao passar mouse em um card de idéia, aparece um ícone de lixeira para fazer a exclusão
-- Criado o modal de confirmação de exclusão de idéia
+- Criado o modal de confirmação para exclusão das idéias
 - Criado o metodo de exclusão no server.js
 
 
