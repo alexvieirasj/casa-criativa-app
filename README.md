@@ -4,7 +4,7 @@
 
 ## 💻 Detalhes do projeto
 
-O sistema tem como objetivo de criar uma aplicação para catalogar ideias de jogos, filmes, livros, cursos e dicas durante a quarentena. O projeto foi desenvolvido pela empresa [Rocketseat](https://rocketseat.com.br/) em um Workshop especial de 5 episódios no YouTube, link da série: https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1 
+O sistema tem como objetivo criar uma aplicação para catalogar ideias de jogos, filmes, livros, cursos e dicas durante a quarentena. O projeto foi desenvolvido pela empresa [Rocketseat](https://rocketseat.com.br/) em um Workshop especial de 5 episódios no YouTube, link da série: https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1 
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./public/demonstracao-sistema.gif" width="800px"/>
@@ -28,7 +28,7 @@ As tecnologias utilizadas no projeto foram:
 
 ## :heavy_plus_sign: Funcionalidades adicionais
 
-- Ao clicar no ícone da lampâda ao lado da label do Link da Imagem, sugere um site para buscar as imagens
+- Ao clicar no ícone da lampâda ao lado da label do Link da Imagem, sugere um site para clicar e buscar as imagens
 - Ao passar mouse em um card de idéia da lista ou dos mais recentes, aparece um ícone de lixeira para fazer a exclusão
 - Criado o modal de confirmação para exclusão das idéias
 - Criado o metodo de exclusão no server.js
