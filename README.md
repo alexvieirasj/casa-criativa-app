@@ -29,9 +29,9 @@ As tecnologias utilizadas no projeto foram:
 ## :heavy_plus_sign: Funcionalidades adicionais
 
 - Ao clicar no ícone da lampâda ao lado da label do link da imagem, sugere um site (clique nele para buscar as imagens)
-- Ao passar mouse em um card de idéia da lista ou dos mais recentes, aparece um ícone de lixeira para fazer a exclusão
-- Criado o modal de confirmação para exclusão das idéias registradas no banco de dados
-- Criado o metodo para exclusão no server.js
+- Ao passar mouse em um card de idéia da lista ou dos 'últimas idéias adicionadas', aparece um ícone de lixeira para fazer a exclusão
+- Criado o modal de confirmação para exclusão das idéias inseridas no banco de dados
+- Criado o método para exclusão no server.js
 
 
 ## :package: Como utilizar o projeto
