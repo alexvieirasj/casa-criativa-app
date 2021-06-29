@@ -4,7 +4,7 @@
 
 ## 💻 Detalhes do projeto
 
-O sistema tem como objetivo criar uma aplicação para catalogar ideias de jogos, filmes, livros, cursos, dicas e notas em geral durante a quarentena. O projeto foi desenvolvido pela empresa [Rocketseat](https://rocketseat.com.br/) em um Workshop especial de 5 episódios no canal do YouTube, link/playlist com a série completa: https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1 
+O sistema tem como objetivo criar uma aplicação web para catalogar ideias de jogos, filmes, livros, cursos, dicas e notas em geral durante a quarentena. O projeto foi desenvolvido pela empresa [Rocketseat](https://rocketseat.com.br/) em um Workshop especial de 5 episódios no canal do YouTube, link/playlist com a série completa: https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=1 
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./public/demonstracao-sistema.gif" width="800px"/>
