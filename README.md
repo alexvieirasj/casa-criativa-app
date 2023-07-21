@@ -26,7 +26,7 @@ As tecnologias utilizadas no projeto foram:
 
 - Obs: o site [Flaticon](https://www.flaticon.com/) foi utilizado para buscar as imagens para adicionar junto as idéias
 
-## :heavy_plus_sign: Funcionalidades adicionais
+## 👨🏻‍💻 Funcionalidades que eu desenvolvi como melhoria do projeto
 
 - Ao clicar no ícone da lampâda, que fica ao lado da label do link da imagem, faz uma sugestão de um site para buscar imagens (clique nele para buscar as imagens desejadas)
 - Ao passar mouse em um card de idéia da lista ou dos 'últimas idéias adicionadas', aparece um ícone de lixeira para fazer a exclusão
