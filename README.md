@@ -1,6 +1,15 @@
-<h1 align="center">
+<h1 id="title" align="center">
   <img alt="Casa Criativa" title="#CasaCriativa" src="./public/logo.png" width="300px" />
 </h1>
+
+<p align="center">
+    <img alt="Origem Projeto" src="https://img.shields.io/badge/Project-Tutorial-informational">
+    <img alt="Origem Projeto" src="https://img.shields.io/badge/YouTube-Rocketseat-blueviolet?logo=youtube&logoColor=white">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alexvieirasj/foodfy">
+    <img alt="Difficult Level" src="https://img.shields.io/badge/level-medium-yellow">
+    <img alt="Issue" src="https://img.shields.io/bitbucket/issues/alexvieirasj/casa-criativa?style=critical">
+    <img alt="Pull Request" src="https://img.shields.io/bitbucket/pr-raw/alexvieirasj/casa-criativa?style=critical">
+</p>
 
 ## 💻 Detalhes do projeto
 
