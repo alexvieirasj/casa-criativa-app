@@ -32,16 +32,20 @@ As tecnologias utilizadas no projeto foram:
 - [NPM](https://www.npmjs.com/)
 - [Nodemon](https://nodemon.io/)
 - [SQLite3](https://www.sqlite.org/version3.html)
+- [Flaticon](https://www.flaticon.com/) Utilizado para buscar as imagens para adicionar junto as idéias
 
-- Obs: o site [Flaticon](https://www.flaticon.com/) foi utilizado para buscar as imagens para adicionar junto as idéias
+## 👨🏻‍💻 Lista de ajustes e melhorias
 
-## 👨🏻‍💻 Funcionalidades que eu desenvolvi como melhoria do projeto
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas listadas abaixo:
 
-- Ao clicar no ícone da lampâda, que fica ao lado da label do link da imagem, faz uma sugestão de um site para buscar imagens (clique nele para buscar as imagens desejadas)
-- Ao passar mouse em um card de idéia da lista ou dos 'últimas idéias adicionadas', aparece um ícone de lixeira para fazer a exclusão
-- Criado o modal de confirmação para exclusão das idéias inseridas no banco de dados, com o botão para exclusão
-- Criado o método para exclusão no server.js do node
-
+- [x] Ao clicar no ícone da lampâda, que fica ao lado da label do link da imagem, faz uma sugestão de um site para buscar imagens (clique nele para buscar as imagens desejadas) 
+- [x] Ao passar mouse em um card de idéia da lista ou dos 'últimas idéias adicionadas', aparece um ícone de lixeira para fazer a exclusão
+- [x] Criado o modal de confirmação para exclusão das idéias inseridas no banco de dados, com o botão para exclusão
+- [ ] Fazer lista de ideias
+- [ ] Fazer a busca de ideias por nome
+- [ ] Inserir tags relacionada as ideias
+- [ ] Criar area administrativa
+- [ ] Listar usuarios e suas ideias
 
 ## :package: Como utilizar o projeto
 
@@ -50,7 +54,7 @@ As tecnologias utilizadas no projeto foram:
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/alexvieirasj/casa-criativa.git
+    $ git clone git@github.com:alexvieirasj/casa-criativa.git
 
     # Entrar no diretório baixado
     $ cd casa-criativa
@@ -64,7 +68,29 @@ As tecnologias utilizadas no projeto foram:
     # running on port 3000 
 ```
 
-## :memo: Licença
+## 🤝 Colaboradores
 
-Este projeto está sob a MIT License. Acesso o arquivo [LICENSE](https://github.com/alexvieirasj/casa-criativa/blob/master/LICENSE) para maiores detalhes.
+Lista de pessoas que contribuíram para este projeto:
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/23263907" width="100px;" alt="Foto de Alex Vieira no GitHub"/><br>
+        <sub>
+          <b>Alex Vieira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 😄 Seja um dos contribuidores<br>
+
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+[⬆ Voltar ao topo](#title)
