@@ -54,7 +54,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ```bash
 
     # Clonar o repositório
-    $ git clone git@github.com:alexvieirasj/casa-criativa.git
+    $ git clone git@github.com:alexvieirasj/casa-criativa-app.git
 
     # Entrar no diretório baixado
     $ cd casa-criativa
